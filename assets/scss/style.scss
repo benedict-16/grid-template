@@ -1,7 +1,6 @@
 @use "../../libs/normalize.css/normalize";
 
-@use "common/typography";
-@use "common/classes";
+@use "common/index";
 
 @use "components/header/header";
 @use "components/header/header-overlay";
@@ -16,3 +15,5 @@
 @use "components/sections/section-posts";
 
 @use "components/footer/footer";
+
+
