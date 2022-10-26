@@ -18,12 +18,21 @@
     justify-content: end;
   }
 
-  &__item {}
+  &__item {
+
+  }
 
   &__link {
     font-size: 1.125rem;
     letter-spacing: 0.088em;
+    transition: color 0.25s;
     display: block;
     padding: $gap $gap-sm;
+
+    &:hover,
+    &:focus {
+      color: $color-accent;
+      transition: color 0.5s;
+    }
   }
 }
